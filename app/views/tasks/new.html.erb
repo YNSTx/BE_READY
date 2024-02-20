@@ -1,3 +1,5 @@
+<div class="container">
+<h1>New task</h1>
 <%# Path: app/views/tasks/new.html.erb %>
 <%= simple_form_for @task do |f| %>
   <%= f.input :title %>
@@ -5,3 +7,4 @@
   <%= f.input :completed %>
   <%= f.button :submit %>
 <% end %>
+</div>
